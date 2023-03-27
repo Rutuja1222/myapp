@@ -1,0 +1,26 @@
+#home:hover{
+    
+     color:white; 
+     text-shadow:1px 1px  1px black;
+}
+
+#user:hover{
+    
+    color:white; 
+    text-shadow:1px 1px  1px black;
+}
+
+#profile:hover{
+    
+    color:white; 
+    text-shadow:1px 1px  1px black;
+}
+
+.img{
+
+    height: 100px;
+    width:150px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}

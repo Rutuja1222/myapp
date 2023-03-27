@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    background-image: url("/assets/images/nature.jpg");
+    background-size:cover; 
+    background-position:center;
+    background-repeat:no-repeat;
+    padding: 250px;
+    
+
+  }
+
+  
+
+  h1
+{
+  color:white;
+  text-transform: uppercase;
+  position:relative;
+  -webkit-text-stroke: 0.3vw #dd1010;
+  text-shadow: 1px 1px black;
+}
+  h1::before{
+
+    content: attr(data-text);
+    position: absolute;
+    top:0;
+    left:0;
+    width:0;
+    height:100%;
+    color:bisque;
+    -webkit-text-stroke: 0vw #eeeff2;
+    border-right: 2px solid #202020;
+    overflow: hidden;
+    animation: animate 6s linear infinite;
+  }
+
+  @keyframes animate
+  {
+
+    0%,10%,100%
+    {
+
+      width: 0;
+    }
+    70%,90%
+    {
+      width: 100%;
+    }
+  }
+p{
+
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px black;
+  
+  
+}
+  
+  
+
+  
